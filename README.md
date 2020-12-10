@@ -19,14 +19,23 @@ You need to have `TextMeshPro` plugin in your project. You can install TMPro via
   * Arabic tashil are in `TashkilRanges.txt` file.
   
 4- Make sure you have copied ranges that you want to use
+
 5- Open `Window/TextMeshPro/Font Asset Creator` window.
+
 6- Assign your font in `Font Source` field (Your font must support RTL characters)
+
 7- Set `Character Set` to `Unicode Range`
+
 8- Paste copied ranges inside  `Character Sequence (Hex)`
+
 9- Press `Generate Font Atlas` button and wait for it to generate the atlas file.
+
 10- Press `Save TextMeshPro Font Asset` and save the asset.
+
 11- Use `GameObject/UI/* - RTLTMP` menu to create RTL UI elements. (Alternatively you can replace `Text Mesh Pro UGUI` components with `RTL Text Mesh Pro`)
-12- Assign your font asset `Font Asset` property in `RTL Text Mesh Pro` component 
+
+12- Assign your font asset `Font Asset` property in `RTL Text Mesh Pro` component
+
 13- Enter text in `RTL TEXT INPUT BOX` secion.
 
 # Features
