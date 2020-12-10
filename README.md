@@ -2,8 +2,11 @@
 This plugin adds Right-to-left language support to "Text Mesh Pro" Unity plugin. 
 You need to have `TextMeshPro` plugin in your project. You can install TMPro via `Package Manager`.
 
-# Attention
-Looking for maintainers. Send email to sorencoder@gmail.com
+# comparison
+| TMPro  | RTLTMPro |
+| ------------- | ------------- |
+| using TMPro  | using RTLTMPro;  |
+| TMP_Text  | RTLTextMeshPro  |
 
 # Features
 ### Realtime RTL Text
