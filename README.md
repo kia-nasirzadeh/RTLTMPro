@@ -10,11 +10,14 @@ You need to have `TextMeshPro` plugin in your project. You can install TMPro via
 
 # Usage
 1- You need to have `TextMeshPro` plugin in your project. You can install TMPro via `Package Manager`. DO NOT Install Text Mesh Pro from Asset Store.
+
 2- Go to [release](https://github.com/sorencoder/RTLTMPro/releases) page and download latest unitypackage file (or copy `RTLTMPro` folder from source to your project.)
+
 3- Open one of the range files in `Assets/RTLTMPro/Ranges/` folder using your favorite text editor.
   * RTL Letters are in `LetterRanges.txt` file
   * English, Arabic and Farsi numbers are in `NumberRanges.txt` file
   * Arabic tashil are in `TashkilRanges.txt` file.
+  
 4- Make sure you have copied ranges that you want to use
 5- Open `Window/TextMeshPro/Font Asset Creator` window.
 6- Assign your font in `Font Source` field (Your font must support RTL characters)
